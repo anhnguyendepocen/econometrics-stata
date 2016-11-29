@@ -18,5 +18,5 @@ assert rep3==rep3b
 
 gen gasGuzzler=(mpg<20) if mpg<.
 
-save autoVersion2,replace 
+save C:\LiuChang\learning\econometrics\econometrics-stata\autoVersion2,replace 
 log close
