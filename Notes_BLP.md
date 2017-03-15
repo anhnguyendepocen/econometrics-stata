@@ -40,3 +40,7 @@ generate int constant = 1
 ```
 duplicates drop id_demo, force
 ```
+### Drop less frequency patterns
+```
+bysort co : drop if _N<11
+```
