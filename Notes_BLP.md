@@ -11,7 +11,7 @@ gen ma_str = strofreal(ma)
 ```
 ### Conbine several columns together
 ``` stata
-gen id = co_new+ ma_str+ ye_str
+gen id = brd_str + co_new + ma_str + ye_str
 ```
 (first convert them to string)
 ### Basic multiply and divide
